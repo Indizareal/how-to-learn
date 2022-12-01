@@ -91,9 +91,9 @@ position: absolute;
 }
 .discription{
   display: flex;
+  margin: 100px auto 0;
   align-items: center;
   justify-content: center;
-  margin: 100px 0;
   width: 80%;
   min-width: 784px;
   border: 2px solid red;
@@ -109,12 +109,14 @@ text-align: center;
 width: 80%;
 }
 .two-colomns__brief{
+  display: flex;
   line-height: 1.2;
   font-size: 18px;
   font-style: normal;
   color: #2f80ed;
 }
 .two-colomns__paragraph{
+  display: flex;
   line-height: 34px;
   font-size: 24px;
   font-style: normal;
@@ -151,7 +153,6 @@ padding: 100px auto;
 }
 .table{
   margin-top: 0;
-
   width: 1100px;
   margin: 0 auto;
   display: flex;
@@ -174,32 +175,41 @@ padding: 100px auto;
   font-size: 18px;
 }
 .feyman{
+  display: flex;
   margin: 100px 0;
   width: 648px;
   height: 890px;
   background-color: #f2f2f2;
   border: 2px solid red;
-  position: relative;
 }
 .feynman__title{
   line-height: 1.15;
   font-weight: 600;
   font-size: 120px;
-  padding: 0 70px;
+  padding: 0 auto 70px;
   text-align: center;
 }
 .feynmam__subtitle{
   line-height: 51px;
   font-weight: normal;
   font-size: 36px;
+  margin: auto;
 }
 .feyman__link{
+  display: flex;
   position: absolute;
   top: 50%;
+  justify-content: end;
   right: 48px;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  color: #2f80ed;
+  text-decoration: none;
+
 }
 .feyman__illustration{
-  position: absolute;
+  position: relative;
   width: 867px;
   height: 637px;
   left: 0;
