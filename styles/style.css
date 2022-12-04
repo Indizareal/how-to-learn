@@ -240,7 +240,6 @@
   font-weight: 600;
   font-size: 120px;
   padding: 0 auto 70px;
-  text-align: center;
   width: 648px;
 }
 
@@ -327,14 +326,12 @@
   justify-content: space-between;
   color: white;
 }
-
 .footer_column_content_copyright {
-  display: flex; 
-  justify-content: space-between; 
+  display: flex;
+  justify-content: space-between;
   flex-basis: 711px;
   flex-direction: column;
 }
-
 .logo_place_footer {
   background-image: url(../images/logo_place_footer.svg);
   background-repeat: no-repeat;
